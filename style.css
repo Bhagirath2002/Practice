@@ -47,3 +47,48 @@ nav ul li a{
 nav ul li a.navigation{
     color: #ef5909;
 }
+
+.first{
+    height: 100vh;
+    background-image: url(first.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    text-align: center;
+    position: relative;
+}
+.overlay{
+    color: #fff;
+    padding: 80px 20px 40px;
+}
+.first-content{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.subheading{
+    margin: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.one{
+    border:none;
+    color: #fff;
+    background-color: #f73636;
+}
+.two{
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+}
