@@ -239,7 +239,7 @@ hr{
     opacity: 0.8;
 }
 .footer{
-    height: 35vh;
+    height: 20vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
