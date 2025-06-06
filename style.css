@@ -145,3 +145,27 @@ hr{
     line-height: 1.6;
 }
 
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: white;
+}
+.footer-left .logos{
+    height: 50px;
+}
+.footer-center a{
+    margin: 0 10px;
+    display: inline-block;
+}
+.footer-center img{
+    height: 30px;
+    width: 30px;
+}
+.footer-right p{
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+}
