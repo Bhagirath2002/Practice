@@ -144,13 +144,106 @@ hr{
     font-size: 16px;
     line-height: 1.6;
 }
-
-
+.feature-section{
+    padding: 80px 20px;
+    background: #fff;
+}
+.container .reverse{
+    flex-direction: row-reverse;
+}
+.feature-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.box-text{
+    flex: 1;
+    min-width: 280px;
+}
+.box-image{
+    flex: 1;
+    text-align: center;
+}
+.box-image img{
+    max-width: 100%;
+    height: auto;
+}
+.highlights{
+    color: #ff4c00;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.h2{
+    font-size: 30px;
+    color: #1e1e2f;
+    margin-bottom: 20px;
+}
+.p{
+    color: #777;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.download-section{
+    background: url(background.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.overlays{
+    background: rgba(0,0 ,0 , 0.05);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+.download-section h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.download-section p{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.butn{
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.butn-primary{
+    background-color: #ff4c00;
+    color: white;
+    border: none;
+}
+.butn-secondary{
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+}
+.butn:hover{
+    opacity: 0.8;
+}
 .footer{
+    height: 35vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 60px;
+    padding: 40px 70px;
     background-color: white;
 }
 .footer-left .logos{
@@ -169,3 +262,4 @@ hr{
     font-size: 14px;
     font-weight: 600;
 }
+
