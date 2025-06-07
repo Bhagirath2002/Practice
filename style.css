@@ -10,20 +10,20 @@ body{
 }
 header{
     background: white;
-    padding: 20px o;
+    padding: 20px 20px;
     box-shadow: 0 1px 5px rgba(0,0 ,0 , 0.05);
 
 }
 .container{
-    width:95vw;
-    height: 110px;
+    width:100%;
+    max-width: 1250px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 }
 .logo{
-    height: 65px;
+    height: 100px; /* Increased image size */
     left: 20px;
     top: 25px;
     padding-right: 20px;
@@ -50,7 +50,7 @@ nav ul li a.navigation{
 
 .first{
     height: 100vh;
-    background-image: url(first.jpg) ;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(static/first.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@ nav ul li a.navigation{
 }
 .phone-image{
     width: 400px;
-    margin: -120px auto 40px;
+    margin:  auto 40px;
     display: block;
     margin-bottom: 20px;
     box-shadow: rgba(0,0 ,0 , 0.05);
@@ -201,7 +201,8 @@ hr{
     line-height: 1.6;
 }
 .download-section{
-    background: url(background.jpg);
+    background: url(static/background.jpg);
+    background-position: center;
     box-shadow: rgba(0,0 ,0 , 0.05);
     height: 100vh;
     display: flex;
@@ -252,29 +253,58 @@ hr{
 .butn:hover{
     opacity: 0.8;
 }
-.footer{
-    height: 20px;
+.footer {
+    height: auto; 
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
-    padding: 40px 70px;
+    padding: 20px 40px;
     background-color: white;
+    border-top: 1px solid #ddd; 
 }
-.footer-left .logos{
-    height: 50px;
+
+.footer-left .logos {
+    height: 60px;
 }
-.footer-center a{
-    margin: 0 10px;
+
+.footer-center a {
+    margin: 0 10px; 
     display: inline-block;
 }
-.footer-center img{
-    height: 30px;
-    width: 30px;
+
+.footer-center img {
+    height: 40px;
+    width: 40px; 
+    transition: transform 0.3s ease; /* Add hover effect */
 }
-.footer-right p{
+
+.footer-center img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.footer-right p {
     color: #333;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 14px; /* Adjust font size */
+    font-weight: 400; /* Use normal font weight */
+    text-align: right; /* Align text to the right */
+}
+nav ul li a:hover {
+    background-color: #9c9898;
+    color: #000; 
+    border-radius: 5px; 
+    padding: 5px 5px; /* Increased padding for button size */
 }
 
+nav ul li a.navigation:hover {
+    background-color: #ff4c00; 
+    color: #fff; 
+    border-radius: 5px; 
+    padding: 10px 15px; /* Increased padding for button size */
+}
 
+nav ul {
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    gap: 50px; /* Increased gap between list items */
+}
