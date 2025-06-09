@@ -274,12 +274,29 @@ a{
     position: relative;
     padding-left: 28px;
 }
-.price {
+.price1 {
     font-size: 22px;
     font-weight: 700;
     color: #0b132a;
     margin-bottom: 24px;
     text-align: center;
+    padding-top: 120px;
+}
+.price2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0b132a;
+    margin-bottom: 24px;
+    text-align: center;
+    padding-top: 85px;
+}
+.price3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0b132a;
+    margin-bottom: 24px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 .price .per-month {
     font-size: 16px;
