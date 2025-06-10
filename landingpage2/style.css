@@ -375,9 +375,9 @@ a{
     font-size: 28px;
     font-weight: 700;
     color: #0b132a;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
-.testimonials-desc{
+.testimonial-desc{
     color: #4F5665;
     font-size: 15px;
     margin-bottom: 40px;    
@@ -450,4 +450,111 @@ a{
     color: #4F5665;
     margin-top: 8px;
     line-height: 1.6;
+}
+.subscribe-section{
+    background: #fff;
+    padding: 0 10% 60px 10%;
+    margin-top: 40px;
+}
+.subscribe-box{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(245,56,56,0.08);
+    padding: 40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 32px;
+}
+.subscribe-text h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: #0b132a;
+    margin-bottom: 10px;
+    line-height:1.3 ;
+}
+.subscribe-text p{
+    color: #4F5665;
+    font-size: 15px;
+}
+.subscribe-btn{
+    background: #F53838;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 48px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 10px 40px rgba(245, 56, 56, 0.15);
+    transition: background 0.2s, box-shadow 0.2s;
+}
+.subscribe-btn:hover {
+    background: #d12d2d;
+}
+.footer{
+    background:#f8f8f8;
+    padding: 60px 10% 30px 10%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.footer-col{
+    flex: 1 1 180px;
+    min-width: 180px;
+    margin-bottom: 20px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    gap: 10px;
+}
+footer-logo img{
+    width: 35px;
+    height: 36.23px;
+}
+.footer-logo span{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0b132a;
+}
+.footer-desc{
+    color: #4F5665;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.footer-social{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+.footer-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0b132a;
+    margin-bottom: 18px;
+}
+.footer-col ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-col ul li a{
+    color: #4F5665;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+.footer-col ul li a:hover{
+    color: #F53838;
+}
+.footer-copyright{
+    color: #afb5c0;
+    font-size: 14px;
+    margin-top: 10px;
 }
